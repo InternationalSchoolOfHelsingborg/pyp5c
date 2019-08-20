@@ -7,7 +7,7 @@ function validate() {
         if(name == 'Archisman') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -17,7 +17,7 @@ function validate() {
         if(name == 'Alexander') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -27,7 +27,7 @@ function validate() {
         if(name == 'Anusha') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -37,7 +37,7 @@ function validate() {
         if(name == 'Aryan') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -47,7 +47,7 @@ function validate() {
         if(name == 'Caspian') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -57,7 +57,7 @@ function validate() {
         if(name == 'Zeineldin') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -67,7 +67,7 @@ function validate() {
         if(name == 'Nevin') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -77,7 +77,7 @@ function validate() {
         if(name == 'Vittoria') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -87,7 +87,7 @@ function validate() {
         if(name == 'Yaretzy') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -97,7 +97,7 @@ function validate() {
         if(name == 'Onzo') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -107,7 +107,7 @@ function validate() {
         if(name == 'Ananya') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -117,7 +117,7 @@ function validate() {
         if(name == 'Elze') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -127,7 +127,7 @@ function validate() {
         if(name == 'Srishti') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -137,7 +137,7 @@ function validate() {
         if(name == 'Saadhana') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -147,7 +147,7 @@ function validate() {
         if(name == 'Jacob') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -157,7 +157,7 @@ function validate() {
         if(name == 'Maya') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -167,7 +167,7 @@ function validate() {
         if(name == 'Admin') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -177,7 +177,7 @@ function validate() {
         if(name == 'Yvette') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -187,7 +187,7 @@ function validate() {
         if(name == 'Charvi') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -197,7 +197,7 @@ function validate() {
         if(name == 'Sakina') {
             alert('Verified credentials. Redirecting...');
             setTimeout(() => {
-                window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+                window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
                 var nameText = document.getElementById('name');
 
                 nameText.innerHTML = name;
@@ -206,7 +206,7 @@ function validate() {
     } else if(classKey == 'Alt3053#') {
         alert('Verified credentials. Redirecting...');
         setTimeout(() => {
-            window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+            window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
             var nameText = document.getElementById('name');
 
             nameText.innerHTML = name;
@@ -214,7 +214,7 @@ function validate() {
     } else if(classKey == 'Alt4053#') {
         alert('Verified credentials. Redirecting...');
         setTimeout(() => {
-            window.location = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
+            window.location.href = "https://internationalschoolofhelsingborg.github.io/pyp5c/dashboard.html";
             var nameText = document.getElementById('name');
 
             nameText.innerHTML = name;
