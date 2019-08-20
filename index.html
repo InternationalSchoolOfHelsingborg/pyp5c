@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Login</title>
+
+        <h2 style="text-align: center; color: #0069B4; font-size: 40px; font-family: Arial, Helvetica, sans-serif;">Welcome to PYP5C! Please login to continue...</h2>
+    </head>
+
+    <body>
+        <script type="text/javascript" src="index.js"></script>
+        <img id="logo" src="https://cdn.discordapp.com/attachments/607581807344484362/613018372216717332/ishlogo.png"><br>
+
+        <form onsubmit="return validate()" name="validation">
+            <input name="name" id="namebox" type="text" placeholder="Your name...">
+            <select id="rank">
+                <option value="Select one...">Select one...</option>
+                <option value="VIP">VIP</option>
+                <option value="MVP">MVP</option>
+                <option value="Developer">Developer</option>
+                <option value="Owner">Owner</option>
+            </select>
+            <input name="classkey" id="classkey" type="password" placeholder="Class Key (provided by Archisman)">
+            <input id="submit" type="submit" value="Log-In">
+        </form>
+    </body>
+</html>
