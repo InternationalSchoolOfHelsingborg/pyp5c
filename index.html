@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="https://cdn.discordapp.com/attachments/607581807344484362/613018372216717332/ishlogo.png">
+        <title>Login</title>
+
+        <h2 style="text-align: center; color: #0069B4; font-size: 40px; font-family: Arial, Helvetica, sans-serif;">Welcome to PYP5C!</h2>
+    </head>
+
+    <body>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+        <script type="text/javascript" src="newsletter.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <img id="logo" src="https://cdn.discordapp.com/attachments/607581807344484362/613018372216717332/ishlogo.png"><br>
+
+        <form name="validation">
+            <input name="name" id="namebox" type="text" placeholder="Your name...">
+            <select id="rank">
+                <option value="Select one...">Select one...</option>
+                <option value="VIP">VIP</option>
+                <option value="MVP">MVP</option>
+                <option value="Developer">Developer</option>
+                <option value="Owner">Owner</option>
+            </select>
+            <input name="classkey" id="classkey" type="password" placeholder="Class Key (provided by Archisman)">
+        </form>
+
+        <button class="infobox" onclick="redirect()">Our newsletter</button>
+
+        <p id="info">This website is not an official website made for ISH. This is another website created by 3 students in the class PYP5C.</p>
+        <button id="submit" onclick="validate()">Log-In</button>
+    </body>
+</html>
