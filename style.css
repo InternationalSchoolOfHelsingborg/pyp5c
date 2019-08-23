@@ -119,7 +119,7 @@ button[id=submit]:hover {
 p[id=welcome-text] {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    margin-left: 45%;
+    margin-left: 2%;
     color: rgb(58, 58, 58);
     font-size: 55px;
 }
@@ -128,7 +128,7 @@ p[id=name] {
     font-family: Comfortaa;
     font-weight: 100;
     margin-top: -55px;
-    margin-left: 45%;
+    margin-left: 2%;
     color: rgb(185, 158, 0);
     font-size: 55px;
 }
