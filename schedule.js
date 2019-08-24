@@ -1,0 +1,1 @@
+var test = get('TEST');
