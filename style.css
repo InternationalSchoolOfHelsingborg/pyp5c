@@ -156,6 +156,7 @@ button[id=newsletterbtn1] {
 
 button[id=newsletterbtn1]:hover {
     background: rgba(180, 21, 21, 0.801);
+    cursor: pointer;
 }
 
 img {
@@ -208,8 +209,9 @@ button[id=music] {
 }
 
 p[id=credits] {
-    margin-left: -60%;
-    margin-top: 34%;
+    margin-left: -89%;
+    margin-top: 10%;
+    font-weight: bold;
 }
 
 iframe[id=music-one] {
@@ -249,4 +251,46 @@ button[id=schedule] {
     font-size: 17.5px;
     background-size: 85%;
     background-position-x: 55%;
+}
+
+iframe[id=spotify-1] {
+    margin-left: 23%;
+    margin-top: 1%;
+}
+
+figcaption[id=text2] {
+    font-family: Comfortaa;
+    margin-top: -4.5%;
+    font-weight: bold;
+    margin-left: 25%;
+}
+
+iframe[id=spotify-2] {
+    margin-left: 43.25%;
+    margin-top: 1%;
+}
+
+figcaption[id=text3] {
+    font-family: Comfortaa;
+    margin-top: -22.5%;
+    font-weight: bold;
+    margin-left: 45%;
+}
+
+button[id=newsletterbtn1] {
+    width: 15%;
+    left: 1.5%;
+    top: 3%;
+    height: 7.5%;
+    position: absolute;
+    background: rgba(209, 50, 50, 0.801);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 17.5px;
+}
+
+button[id=newsletterbtn1]:hover {
+    background: rgba(180, 21, 21, 0.801);
+    cursor: pointer
 }
