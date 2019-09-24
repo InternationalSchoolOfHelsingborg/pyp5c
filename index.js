@@ -49,7 +49,7 @@ function validate() {
         } else {
             alert('Your name does not match your class key.');
         }
-    } else if(classKey == 'Caspian053#') {
+    } else if(classKey == 'okdscxpsjdcodj jdcm #') {
         if(name == 'Caspian') {
             alert('Verified credentials. Redirecting...');
                 alert('Failed to redirect');
