@@ -363,7 +363,7 @@ tr:nth-child(even) {
 }
 
 td[id=submitted-1] {
-    background-color: red;
+    background-color: rgb(0,255,0);
 }
 
 .content {
