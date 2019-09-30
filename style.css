@@ -199,7 +199,7 @@ button[id=newsletterbtn2] {
 button[id=music] {
     width: 21%;
     height: 70%;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-top: 1%;
     background-image: url('music\ icon.png');
     border: 1px solid transparent;
@@ -210,7 +210,7 @@ button[id=music] {
 
 p[id=credits] {
     margin-left: -89%;
-    margin-top: 10%;
+    margin-top: 1%;
     font-weight: bold;
 }
 
@@ -242,7 +242,7 @@ img[id=schema] {
 button[id=schedule] {
     width: 21%;
     height: 70%;
-    margin-left: 7%;
+    margin-left: 2%;
     margin-top: 1%;
     background-image: url('schedule.png');
     border: 1px solid transparent;
@@ -251,6 +251,22 @@ button[id=schedule] {
     font-size: 17.5px;
     background-size: 85%;
     background-position-x: 55%;
+}
+
+button[id=homework] {
+    width: 21%;
+    height: 70%;
+    margin-left: 2%;
+    margin-top: 1%;
+    background-image: url('homework.jpg');
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 17.5px;
+    background-size: 85%;
+    background-position-x: 0%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 iframe[id=spotify-1] {
@@ -292,5 +308,111 @@ button[id=newsletterbtn1] {
 
 button[id=newsletterbtn1]:hover {
     background: rgba(180, 21, 21, 0.801);
-    cursor: pointer
+    cursor: pointer;
+}
+
+button[id=newsletterbtn2]:hover {
+    cursor: pointer;
+}
+
+button[id=newsletterbtn2] {
+    box-shadow: 1px 1px 3px;
+}
+
+button[id=backbtn1] {
+    margin-top: -50%;
+}
+
+.show-hide-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    user-select: none;
+}
+
+a[id=student] {
+    color:rgb(0, 183, 255);
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+    font-size: 35px;
+    margin-left: 1%;
+    font-family: Chilanka;
+}
+
+a[id=student]:hover { 
+    color:rgb(0, 115, 160);
+    cursor: pointer;
+}
+
+td, th {
+    border: 2px solid #c2c2c2;
+    text-align: left;
+    padding: 15px;
+}
+
+table {
+    font-family: Comfortaa;
+    border-collapse: collapse;
+    width: 30%;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+td[id=submitted-1] {
+    background-color: red;
+}
+
+.content {
+    margin-top: 1%;
+    padding-top: 25%;
+    margin-left: 25%;
+    width: 50%;
+    height: 100%;
+    border: 2px solid rgb(22, 22, 22);
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+.content-inner {
+    padding-left: 47.5%;
+    margin-top: -48.75%;
+    margin-left: 1%;
+    background-color: black;
+    width: 50%;
+    padding-top: 47.5%;
+    height: 5%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.intro {
+    margin-top: -50%;
+    color: white;
+    font-family: Comfortaa;
+    font-size: 30px;
+}
+
+select[id=homework-choice] {
+    width: 15%;
+    height: 13%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 11.25%;
+    background-color: #f5f5f5;
+}
+
+.homework-main {
+    position: absolute;
+    margin-top: -23.55%;
+    margin-left: -18.75%;
 }
