@@ -10,14 +10,11 @@
 
         <div id="design">
             <img src="https://cdn.discordapp.com/attachments/614447487104712705/614470747276181514/imageedit_1_3897330958.png">
-            <a href="profile.html" id="profile-btn" target="_blank">Your profile</a>
+            <a href="profile.html" id="profile-btn">Your profile</a>
         </div>
 
         <div id="topbar">
             <p id="infotitle">PYP5C</p>
-
-            
-
         </div>
     </head>
 
@@ -30,19 +27,42 @@
         </div>
 
         <div id="barthree">
-            <button id="newsletterbtn2" onclick="loadNewsletter()" target="_blank">
+            <button id="newsletterbtn2" onclick="loadNewsletter()" style="box-shadow: 1px 1px 3px">
                 <label style="color: black; font-family: Comfortaa; font-size: 30px; font-weight: bold">Newsletters</label>
             </button>
 
-            <button id="music" onclick="loadMusic()" target="_blank">
+            <button id="music" onclick="loadMusic()">
                 <label style="color: black; font-family: Comfortaa; font-size: 30px; font-weight: bold">Music</label>
             </button>
 
-            <button id="schedule" onclick="loadSchedule()" target="_blank">
+            <button id="schedule" onclick="loadSchedule()">
                 <label style="color: black; font-family: Comfortaa; font-size: 30px; font-weight: bold">Schedule</label>
+            </button>
+
+            <button id="homework" onclick="window.location.replace('homework.html')">
+                <label style="color: white; font-family: Comfortaa; font-size: 30px; font-weight: bold">Homework</label>
             </button>
         </div>
 
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
 
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#config-web-app -->
+
+        <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCWcUHinmlboaErd1sweFBmdDPS8IcRlJQ",
+            authDomain: "pyp5c-fb35a.firebaseapp.com",
+            databaseURL: "https://pyp5c-fb35a.firebaseio.com",
+            projectId: "pyp5c-fb35a",
+            storageBucket: "",
+            messagingSenderId: "956317544134",
+            appId: "1:956317544134:web:c47e65b512ab65d7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        </script>
     </body>
 </html>
