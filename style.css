@@ -416,3 +416,7 @@ select[id=homework-choice] {
     margin-top: -23.55%;
     margin-left: -18.75%;
 }
+
+.profileImg {
+    cursor: pointer;
+}
