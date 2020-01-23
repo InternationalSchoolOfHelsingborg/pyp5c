@@ -30,5 +30,16 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
+    
+    <script>
+      document.getElementById("submit").addEventListener('click', () => {
+        const ref = firebase.database().ref("suggestions")
+        const new = ref.push();
+
+        new.set({
+          songName: document.getElementById("namebox").value;
+        })
+      })
+        
   </body>
 </html>
