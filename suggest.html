@@ -32,6 +32,7 @@
     
     <script>
       document.getElementById("submit").addEventListener('click', () => {
+        console.log("Event triggered")
         const ref = firebase.database().ref("suggestions")
         console.log("Suggestions defined")
         const new = ref.push();
@@ -42,6 +43,6 @@
         })
         console.log("Reference set, code complete.")
       })
-        
+    </script>
   </body>
 </html>
