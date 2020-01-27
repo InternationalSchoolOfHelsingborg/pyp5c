@@ -35,13 +35,14 @@
         document.getElementById("submit").addEventListener('click', () => {
           console.log("Event triggered")
           const ref = firebase.database().ref("suggestions/"+id).set({
-            songName: document.getElementById("namebox").value;
+            songName: document.getElementById("namebox").value
           })
           console.log("Reference pushed")
           
           console.log("Reference set, code complete.")
         })
       }
+      saveSong(Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5));
     </script>
   </body>
 </html>
