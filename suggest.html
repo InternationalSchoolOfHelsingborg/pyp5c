@@ -31,18 +31,17 @@
 </script>
     
     <script>
-      document.getElementById("submit").addEventListener('click', () => {
-        console.log("Event triggered")
-        const ref = firebase.database().ref("suggestions")
-        console.log("Suggestions defined")
-        const test = ref.push();
-        console.log("Reference pushed")
-
-        new.set({
-          songName: document.getElementById("namebox").value;
+      function saveSuggestion(suggestionId)
+        document.getElementById("submit").addEventListener('click', () => {
+          console.log("Event triggered")
+          const ref = firebase.database().ref("suggestions").push();
+          console.log("Reference pushed")
+          
+          ref.set({
+            songName: document.getElementById("namebox").value;
+          })
+          console.log("Reference set, code complete.")
         })
-        console.log("Reference set, code complete.")
-      })
     </script>
   </body>
 </html>
